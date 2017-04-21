@@ -1,2 +1,0 @@
-# OpenCE
-Contrast Enhancement Techniques
