@@ -1,0 +1,274 @@
+/* main CSS file (ver.2) */
+@charset "utf-8";
+/* General Appearance */
+/* body default */
+html{
+	overflow-y: scroll; /* show vertical scroll bar always (needed for constant centering body text) */
+	-webkit-text-size-adjust: none; /* Prevent font scaling in iPhone OS */
+}
+html, body{ 
+	height:100%; /* key point for 100% div height */
+}
+body {
+	background-image: url(shadow_background3.png); /** Link to the image you created **/
+	background-repeat: repeat-y; /** Repeats the image vertically **/
+	background-position: center; /** Centers the Background image **/
+	background-color: #cccccc; /** Website BG colour (matches canvas colour in Step 1) **/
+
+	/*font-family: "Times New Roman", Times, serif;
+	font-size:medium;*/
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+	width: 970px; /* move center */
+	
+	/* position:relative;	/* very important for layout control */
+	margin:0px auto; /* moving the whole div into center */
+	
+	/* height:100%; /* key point for 100% div height */
+	/* min-height: 100%; /* key point for 100% div height */
+
+
+	/*overflow-y:scroll; /* show vertical scroll bar always (needed for constant centering body text) */
+	/*overflow-x:hidden; /* for horizontal scroll bug */
+}
+hr {
+	border: 0px;
+	/*	width: 80%; */
+	color:#CCCCCC;
+	background-color: #CCCCCC;
+	height: 1px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+p{
+	margin-top:5px;
+	margin-bottom: 5px;
+	}
+.xsmall{
+	font-size: x-small
+}
+.small{
+	font-size: small
+}
+.xlarge{
+	font-size: x-large;
+	font-weight: bold;
+	}
+.large {
+	font-size: large;
+	font-weight: bold;
+}
+a:link {
+	color: #0000CC;
+	text-decoration: none;
+}
+a:visited {
+	color: #330099;
+	text-decoration: none;
+}
+a:hover {
+	color: #0000CC;
+	text-decoration: none;
+}
+a:active {
+	color: #0000CC;
+	text-decoration: none;
+}
+
+/* Toptitle Frame */
+#toptitle{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	/*width:800px;*/
+	/*height: 90px;*/
+	/* background-image: url(images/top_background_dot.gif);
+}
+#topimage {
+	float:left;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width:950px;
+	/*overflow-x:hidden; *//* for horizontal scroll bug */
+	}
+.myname {
+	color: #FFFFFF;
+	position:relative;
+	font-size: large;
+	font-weight: bold;
+	font-family: Times New Roman, Times, serif;
+	margin-left:20px;
+}
+.collegename {
+	color: #FFFFFF;
+	position:relative;
+	padding-top:5px;
+	margin-left:20px;
+	font-size:medium;
+	font-weight: bold;
+	font-family: Times New Roman, Times, serif;
+}
+
+a.title:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.title:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.title:hover {
+	text-decoration: none;
+	color: #FFCC00;
+}
+a.title:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	
+/* Menu Frame */
+#menu_bar{
+	font-weight: bold;
+	font-size:medium;
+	font-family: Times New Roman, Times, serif;
+	position:relative;
+	margin-left:0px;
+	/*height: 18px;*/
+	/*background-image: url(images/menu_background.gif);*/
+}
+.menubar{
+	font-weight: bold;
+	font-size:medium;
+	font-family: Times New Roman, Times, serif;
+	position:relative;
+	margin-left:0px;
+}
+a.menu:link {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.menu:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a.menu:hover {
+	text-decoration: none;
+	color: #CAA200;
+}
+a.menu:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+a.menu_select:link {
+	color:#990033;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.menu_select:visited {
+	text-decoration: none;
+	color: #990033;
+}
+a.menu_select:hover {
+	text-decoration: none;
+	color: #990033;
+}
+a.menu_select:active {
+	text-decoration: none;
+	color: #990033;
+}
+
+/* Body Frame */
+#bodytext{
+	font-family: "Times New Roman", Times, serif;
+	font-size:medium;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width:950px;
+	overflow-x:hidden; /* for horizontal scroll bug */
+	}
+#bodyframe{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width:950px;
+	background-color: #FFFFFF;
+	min-height: 100%;/* key point for 100% div height */
+	/*background-image: url(images/top_background_dot.gif);*/
+}
+	
+#projectbody {
+	font-family: "Times New Roman", Times, serif;
+	font-size:medium;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	width:950px;
+	background-color: #FFFFFF;
+	/*overflow-x:hidden; /* for horizontal scroll bug */
+	}
+	
+#header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:medium;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+#section {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size:medium;
+	margin-bottom:5px;
+	}
+#title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:medium;
+	font-weight: bold;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+	}
+#subtitle {
+	font-family: "Times New Roman", Times, serif;
+	font-size:medium;
+	font-weight: bold;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+	}
+#arrow {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+#image {
+	float:left;
+	margin-right:20px;
+	}
+#sperate {
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+#copyright {
+	font-family: "Times New Roman", Times, serif;
+	font-size:medium;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
