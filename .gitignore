@@ -1,0 +1,14 @@
+*wiki*
+\#*
+\#dataset/
+\#include/
+\#toolbox/
+*.zip
+*out*
+dev
+*junk*
+*temp*
+*test*.txt
+*.asv
+*.mlx
+*out*
