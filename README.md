@@ -37,19 +37,13 @@ Contrast Enhancement Techniques
 
 ## Publications
 
-A New Image Contrast Enhancement Algorithm using Exposure Fusion Framework
+Source code can be found at `ours` folder:
 
-submitted to CAIP 2017 [project website](https://baidut.github.io/OpenCE/caip2017.html)
+1. A New Image Contrast Enhancement Algorithm using Exposure Fusion Framework (accepted by CAIP 2017，journal version submitted to IEEE Transactions on Cybernetics)  [project website](https://baidut.github.io/OpenCE/caip2017.html)
 
-```matlab
-I = imread('yellowlily.jpg');
-J = ours_caip2017(I); 
-subplot 121; imshow(I); title('Original Image');
-subplot 122; imshow(J); title('Enhanced Result');
-```
 
-Currently we only provide the .p code, the source code will be open soon.
+2. A New Low-Light Image Enhancement Algorithm using Camera Response Model (accepted by ICCV Workshop 2017)
 
 
 
-Please feel free to contact me (yingzhenqiang-at-gmail-dot-com) if you have any further questions or concerns.
+**Please feel free to contact me (yingzhenqiang-at-gmail-dot-com) if you have any further questions or concerns.** 
